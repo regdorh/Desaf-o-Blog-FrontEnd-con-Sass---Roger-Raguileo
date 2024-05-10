@@ -1,0 +1,38 @@
+.card{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.card__image{
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card-body{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card-body__fecha{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.card-body__title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.card-body__enlace{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.card-body__logodelenlace{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 3px #888888;
+    margin-right: 5px;
+}

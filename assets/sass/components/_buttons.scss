@@ -1,0 +1,101 @@
+.categorias{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 15px;
+    transition: all 900ms;
+}
+
+.categorias--subir:hover{
+    transform: translateY(-3px);
+}
+
+.categorias__boton{
+    border-radius: 15px;
+}
+
+.categorias__nombretecnologia{
+   color: white; 
+   font-size: x-large;
+   text-align: justify;
+}
+
+.categorias__nombretecnologia--letra:hover{
+    font-weight: 700;
+}
+
+.categorias__image--mov:hover{
+    animation: latir infinite 1s linear;
+}
+
+@keyframes latir {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.02, 1.02);
+    }
+
+    55% {
+        transform: scale(0.95, 0.95);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+
+}
+
+#primerboton{
+    background-color: #E93E30;
+}
+
+#segundoboton{
+    background-color: #F7E018;
+}
+
+#tercerboton{
+    background-color: #299ED5;
+}
+
+#cuartoboton{
+    background-color: #292C33;
+}
+
+#quintoboton{
+    background-color: #67C770;
+}
+
+#sextoboton{
+    background-color: #563D7C;
+}
+
+.buttons-container__button {
+    border-radius: 10px;
+    border: 1px solid #00000033;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+}
+  
+  .buttons-container__image {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+  
+  .buttons-container__button--login {
+    background-color: #D5F5E3;
+}
+  
+  .buttons-container__button--google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: white;
+}
